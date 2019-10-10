@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Example 3</title>
+</head>
+<body>
+<h1>Image Changed</h1>
+<img id="myImage" onclick="changeImage()" src="IMG_6411.JPG" width="100" height="180">
+
+<p>Imgadsdjfhksd.</p>
+
+<script>
+function changeImage() {
+  var image = document.getElementById("myImage");
+  if (image.src.match("bulbon")) {
+    image.src = "IMG_6411.JPG";
+  } else {
+    image.src = "IMG_6404.JPG";
+  }
+}
+</script>
+
+</body>
+</html>
